@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch · Vee’s Fractions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <header id="tutor">
+    <div id="avw"><svg id="av" viewBox="0 0 96 96" aria-hidden="true">
+      <circle cx="48" cy="48" r="40" fill="#fff" stroke="#8C3446" stroke-width="5"/>
+      <line x1="2" y1="50" x2="94" y2="50" stroke="#62202F" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="36" cy="34" r="5" fill="#62202F"/><circle cx="60" cy="34" r="5" fill="#62202F"/>
+      <path id="mouth" d="M38 66 Q48 74 58 66" fill="none" stroke="#62202F" stroke-width="4" stroke-linecap="round"/></svg></div>
+    <div id="tb"><div class="who title">Vee</div><div id="bub" aria-live="polite"></div></div>
+    <button id="voice" aria-pressed="false">Voice off</button>
+  </header>
+  <nav id="parts" aria-label="Parts of the lesson"></nav>
+  <main id="stage"></main>
+  <div id="ctl"></div>
+  <svg id="arrow" aria-hidden="true"><path id="ap" fill="none" stroke="#8C3446" stroke-width="3" stroke-linecap="round" marker-end="url(#hd)"/><defs><marker id="hd" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8C3446"/></marker></defs></svg>
+</div>
+<script src="js/lesson.js"></script>
+<script src="js/common.js"></script>
+<script src="js/watch.js"></script>
+</body>
+</html>

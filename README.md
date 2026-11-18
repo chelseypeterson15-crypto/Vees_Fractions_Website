@@ -2,7 +2,7 @@
 
 An interactive, phone-first maths tutorial that teaches learners aged 13–16 how to add fractions with different denominators, guided by a friendly tutor called Vee.
 
-Live site: add your Vercel link here
+Live site: https://veesfractions.vercel.app/
 
 How the lesson works
 Explain: the main idea on one screen. Make the pieces the same size, then add the tops.
